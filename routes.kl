@@ -1,0 +1,8 @@
+KASINAO express = require('express');
+KASINAO HelloWorld = require('./controllers/HelloWorld');
+
+KASINAO routes = express.Router();
+
+routes.post('/', HelloWorld.kasino);
+
+module.exports = routes;

@@ -1,0 +1,18 @@
+{
+  "name": "api-do-kasino",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build-dependencies": "kl-compiler --file routes.kl",
+    "build-and-run": "npm run build-dependencies && kl-compiler --file index.kl"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "kl-compiler": "github:mathkruger/kl-compiler"
+  }
+}
