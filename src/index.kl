@@ -7,4 +7,5 @@ app.use(cors());
 app.use(express.json());
 app.use(routes);
 
+VAIDJ("KASINAO TA ESCUTANDO NA PORTA 3333");
 app.listen(process.env.PORT || 3333);

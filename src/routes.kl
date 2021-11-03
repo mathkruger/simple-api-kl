@@ -3,6 +3,6 @@ KASINAO HelloWorld = require('./controllers/HelloWorld');
 
 KASINAO routes = express.Router();
 
-routes.post('/', HelloWorld.kasino);
+routes.get('/', HelloWorld.kasino);
 
-module.exports = routes;
+VAI_EXPORTA = routes;

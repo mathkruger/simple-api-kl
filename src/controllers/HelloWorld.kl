@@ -1,0 +1,5 @@
+VAI_EXPORTA = {    
+    CALMAE kasino(request, response) {
+        return response.json("AE KASINÃO");
+    }
+}

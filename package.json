@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build-dependencies": "kl-compiler --file routes.kl",
-    "build-and-run": "npm run build-dependencies && kl-compiler --file index.kl"
+    "build": "kl-compiler --path ./src --output ./build",
+    "run": "npm run build && node ./build/index.js"
   },
   "author": "",
   "license": "ISC",

@@ -1,5 +1,0 @@
-VAI.ARREBENTA = {    
-    ESPERA kasino(request, response) {
-        return response.json("AE KASINÃO");
-    }
-}
