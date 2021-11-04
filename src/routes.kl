@@ -1,8 +1,8 @@
-KASINAO express = require('express');
-KASINAO HelloWorld = require('./controllers/HelloWorld');
+KASINAO express É require("express");
+KASINAO HelloWorld É require("./controllers/HelloWorld");
 
-KASINAO routes = express.Router();
+KASINAO routes É express.Router();
 
-routes.get('/', HelloWorld.kasino);
+routes.get("/", HelloWorld.kasino);
 
-VAI_EXPORTA = routes;
+VAI_EXPORTA É routes;

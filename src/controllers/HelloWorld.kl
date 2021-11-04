@@ -1,5 +1,5 @@
-VAI_EXPORTA = {    
-    CALMAE kasino(request, response) {
-        return response.json("AE KASINÃO");
-    }
-}
+VAI_EXPORTA É BOA NOITE    
+    CALMAE kasino(request, response) BOA NOITE
+        ARREBENTA response.json("AE KASINÃO");
+    BOA TARDE
+BOA TARDE

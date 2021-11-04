@@ -1,7 +1,7 @@
-KASINAO express = require('express');
-KASINAO cors = require('cors');
-KASINAO routes = require('./routes');
-KASINAO app = express();
+KASINAO express É require("express");
+KASINAO cors É require("cors");
+KASINAO routes É require("./routes");
+KASINAO app É express();
 
 app.use(cors());
 app.use(express.json());
