@@ -1,11 +1,11 @@
-KASINAO express É require("express");
-KASINAO cors É require("cors");
-KASINAO routes É require("./routes");
-KASINAO app É express();
+KASINAO express É require ABRE "express" FECHA;
+KASINAO cors É require ABRE "cors" FECHA;
+KASINAO routes É require ABRE "./routes" FECHA;
+KASINAO app É express ABRE FECHA;
 
-app.use(cors());
-app.use(express.json());
-app.use(routes);
+app.use ABRE cors ABRE FECHA FECHA;
+app.use ABRE express.json ABRE FECHA FECHA;
+app.use ABRE routes FECHA;
 
-VAIDJ("KASINAO TA ESCUTANDO NA PORTA 3333");
-app.listen(process.env.PORT || 3333);
+CHAMA VAIDJ ABRE "KASINAO TA ESCUTANDO NA PORTA 3333" FECHA;
+app.listen ABRE process.env.PORT || 3333 FECHA;

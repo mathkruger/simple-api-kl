@@ -1,8 +1,8 @@
-KASINAO express É require("express");
-KASINAO HelloWorld É require("./controllers/HelloWorld");
+KASINAO express É require ABRE "express" FECHA;
+KASINAO HelloWorld É require ABRE "./controllers/HelloWorld" FECHA;
 
-KASINAO routes É express.Router();
+KASINAO routes É express.Router ABRE FECHA;
 
-routes.get("/", HelloWorld.kasino);
+routes.get ABRE "/", HelloWorld.kasino FECHA;
 
-VAI_EXPORTA É routes;
+EXPORTAE É routes;
