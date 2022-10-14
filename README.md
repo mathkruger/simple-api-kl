@@ -5,4 +5,4 @@ Simple API written in KasinoLang (JUST FOR FUN, DON'T TAKE IT SERIOUS)
 ```npm run build```
 
 ## How to run it
-```npm run run```
+```npm start```
